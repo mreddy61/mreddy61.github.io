@@ -3,6 +3,7 @@ body{
     background-color:black;
     color: aliceblue;
     text-align: center;
+    line-height: 10vw;
 }
 .about{
     color:whitesmoke;
