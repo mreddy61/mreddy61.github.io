@@ -34,5 +34,6 @@ body{
 @media screen and (max-width:500px){
     .about{
         flex-direction: column;
+        justify-content: center;
     }
 }
