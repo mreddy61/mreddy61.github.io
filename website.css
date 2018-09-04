@@ -3,16 +3,18 @@ body{
     background-color:black;
     color: aliceblue;
     text-align: center;
-    line-height: 10vw;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-.about{
+.info{
     color:whitesmoke;
     font-size: 1em;
     font-family: 'Concert One', cursive;
-    display: flex;
     flex-direction: column;
     justify-content: center;
+    line-height: 10vw;
 }
 .mypic{
     width:30vw;
@@ -27,8 +29,24 @@ body{
     text-align:center;
     padding: 10px;
 }
-.details{
+.about{
+    width: 100vw;
     text-align: center;
     color: lightseagreen;
     font-family: 'Concert One', cursive;
+    display: flex;
+    justify-content: center;
+}
+#intro{
+    line-height: 3vw;
+    font-size: 0.5em;
+    width: 80vw;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px lightseagreen;
+    font-family: 'Abel', sans-serif;
+}
+h1{
+    font-size: 0.7em;
+    width: 15vw;
 }
