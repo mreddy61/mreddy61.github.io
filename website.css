@@ -7,7 +7,7 @@ body{
 .about{
     color:whitesmoke;
     font-size: 1em;
-    font-family: 'Dancing Script';
+    font-family: 'Concert One', cursive;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,4 +28,5 @@ body{
 .details{
     text-align: center;
     color: lightseagreen;
+    font-family: 'Concert One', cursive;
 }
