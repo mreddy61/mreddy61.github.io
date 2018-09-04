@@ -4,6 +4,7 @@ body{
     background-size: cover;
     font-size: 60px;
     color: aliceblue;
+    line-height: 10vw;
 }
 .one{
     widows: 100%;
@@ -22,7 +23,7 @@ body{
     align-items: center;
 }
 
-.name{
+.welcome{
     letter-spacing: 15px;
     width: 50vw;
     text-align: center;
@@ -47,12 +48,12 @@ body{
     transition: all 0.5s ease;
 }
 
-.name:hover{
+.welcome:hover{
     text-shadow: 1px 1px black;
     transition: all 0.5s ease-in ease-out;
 }
 @media screen and (max-width:1250px){
-    .name{
+    .welcome{
         letter-spacing: 10px;
         font-size: 0.6em;
     }
@@ -61,7 +62,7 @@ body{
     }
 }
 @media screen and (max-width:900px){
-    .name{
+    .welcome{
         font-size: 0.5em;
         letter-spacing: 5px;
     }
