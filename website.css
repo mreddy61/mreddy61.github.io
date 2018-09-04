@@ -21,10 +21,12 @@ body{
     box-shadow: 5px -5px 5px gray;  
 }
 .myname{
+    width: 60vw;
     display: flex;
     flex-direction: column;
     text-align:center;
     padding: 10px;
+    justify-content: center;
 }
 .details{
     text-align: center;
@@ -35,6 +37,7 @@ body{
         flex-direction: column;
     }
     .mypic{
-        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
