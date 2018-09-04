@@ -35,8 +35,4 @@ body{
     .about{
         flex-direction: column;
     }
-    .mypic{
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
