@@ -9,7 +9,7 @@ body{
     font-size: 1em;
     font-family: 'Dancing Script';
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 .mypic{
