@@ -5,6 +5,7 @@ body{
     text-align: center;
 }
 .about{
+    width:100%;
     color: whitesmoke;
     font-size: 1em;
     font-family: 'Dancing Script';
@@ -17,15 +18,13 @@ body{
     height: 30vw;
     border: 5px black;
     border-radius: 10%;
-    box-shadow: 5px -5px 5px gray;  
+    box-shadow: 5px -5px 5px gray; 
+    margin-left: auto;
+    margin-right: auto; 
 }
 .myname{
-    width: 60vw;
-    display: flex;
-    flex-direction: column;
     text-align:center;
     padding: 10px;
-    justify-content: center;
 }
 .details{
     text-align: center;
