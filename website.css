@@ -30,9 +30,3 @@ body{
     text-align: center;
     color: azure;
 }
-@media screen and (max-width:900px){
-    .about{
-        flex-direction: column;
-        justify-content: center;
-    }
-}
