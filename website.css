@@ -1,0 +1,40 @@
+body{
+    font-size: 60px;
+    background-color:black;
+    color: aliceblue;
+    text-align: center;
+}
+.about{
+    color: whitesmoke;
+    font-size: 1em;
+    font-family: 'Dancing Script';
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.mypic{
+    margin-left: auto;
+    width:30vw;
+    height: 30vw;
+    border: 5px black;
+    border-radius: 10%;
+    box-shadow: 5px -5px 5px gray;  
+}
+.myname{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    padding: 10px;
+}
+.details{
+    text-align: center;
+    color: azure;
+}
+@media screen and (max-width:500px){
+    .about{
+        flex-direction: column;
+    }
+    .mypic{
+        align-content: center;
+    }
+}
