@@ -10,10 +10,9 @@ body{
     font-family: 'Dancing Script';
     display: flex;
     flex-direction: row;
-    align-content: center;
+    justify-content: center;
 }
 .mypic{
-    margin-left: auto;
     width:30vw;
     height: 30vw;
     border: 5px black;
