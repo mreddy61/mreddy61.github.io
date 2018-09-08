@@ -83,42 +83,7 @@ h1{
     height: 20%;
     align-items: center;
 }
-/*#javascript{
-    background-image: url("./images/JavaScript-logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.2;
-}
-#python{
-    background-image: url("./images/python-logo.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-}
-#java{
-    background-image: url("./images/java-logo.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-}
-#mongo{
-    background-image: url("./images/MongoDB-logo.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-}
-#angular{
-    background-image: url("./images/angular-logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-}
-#node{
-    background-image: url("./images/nodejs-logo.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-}*/
+/*media Queries*/
 @media screen and (max-width:800px){
     .info{
         flex-direction: column;
@@ -151,7 +116,7 @@ h1{
         font-size: 0.5em;
     }
     .technologies{
-        font-size:0.6em;
+        font-size:0.7em;
     }
     .item img{
         width: 100%;
@@ -181,7 +146,7 @@ h1{
         font-size: 0.5em;
     }
     .technologies{
-        font-size:0.5em;
+        font-size:0.55em;
     }
 }
 @media screen and (max-width:300px){
@@ -189,12 +154,12 @@ h1{
         font-size: 0.4em;
     }
     .technologies{
-        font-size:0.4em;
+        font-size:0.5em;
     }
     .about{
         font-size: 0.4em;
     }
     .intro{
-        font-size: 0.5em;
+        font-size: 0.4em;
     }
 }
