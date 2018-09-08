@@ -70,6 +70,8 @@ h1{
     }
     .myname{
         width: 100vw;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .mypic{
         height: 30vw;
