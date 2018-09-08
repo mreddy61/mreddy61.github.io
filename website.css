@@ -70,12 +70,11 @@ h1{
 .item{
     width: 30%;
     height: 40%;
-    border:1px solid white; 
+    border:1px groove white; 
 }
 .item img{
     width: 80%;
     height: 80%;
-    padding: 2px;
 }
 .techname{
     color:white;
