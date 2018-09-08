@@ -75,10 +75,13 @@ h1{
 .item img{
     width: 80%;
     height: 80%;
+    padding: 2px;
 }
 .techname{
     color:white;
+    margin-bottom: auto;
     height: 20%;
+    align-items: center;
 }
 /*#javascript{
     background-image: url("./images/JavaScript-logo.png");
@@ -150,8 +153,11 @@ h1{
     .technologies{
         font-size:0.6em;
     }
+    .item img{
+        width: 100%;
+    }
 }
-@media screen and (max-width:650px){
+@media screen and (max-width:600px){
     .info{
         font-size: 0.5em;
     }
@@ -176,5 +182,19 @@ h1{
     }
     .technologies{
         font-size:0.5em;
+    }
+}
+@media screen and (max-width:300px){
+    .info{
+        font-size: 0.4em;
+    }
+    .technologies{
+        font-size:0.4em;
+    }
+    .about{
+        font-size: 0.4em;
+    }
+    .intro{
+        font-size: 0.5em;
     }
 }
