@@ -11,10 +11,10 @@ body{
 .info{
     color:whitesmoke;
     font-size: 1em;
+    width: 100%;
     font-family: 'Concert One', cursive;
-    flex-direction: column;
+    display: flex;
     justify-content: center;
-    line-height: 10vw;
 }
 .mypic{
     width:30vw;
@@ -22,35 +22,99 @@ body{
     border: 5px black;
     border-radius: 10%;
     box-shadow: 5px -5px 5px gray; 
-    margin-left: auto;
-    margin-right: auto; 
+    /*margin-left: auto;
+    margin-right: auto; */
 }
 .myname{
     text-align:center;
     padding: 10px;
+    width: 60%;
+    margin-top: 10vw;
+    margin-bottom: auto; 
 }
 .about{
-    width: 100vw;
     text-align: center;
     color: lightseagreen;
     font-family: 'Concert One', cursive;
+    position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-}
-#intro{
-    line-height: 3vw;
-    font-size: 0.5em;
-    width: 80vw;
-    color: whitesmoke;
-    border: 1px solid gray;
-    border-radius: 5px;
-    box-shadow: 1px 1px 2px 1px lightseagreen;
-    font-family: 'Abel', sans-serif;
-    text-align: start;
-    padding-left: 10px;
+    width: 100%;
 }
 h1{
     font-size: 0.7em;
-    text-align: start;
-    width: 15vw;
+    width: 100vw;
+    text-align: center;
+}
+.intro{
+    line-height: 5vw;
+    justify-content: center;
+    font-size: 0.5em;
+    color: whitesmoke;
+    /*padding:3%;*/
+    border: 1px solid gray;
+    border-radius: 10px;
+    /*box-shadow: 2px 2px 2px 2px lightseagreen;*/
+    font-family: 'Abel', sans-serif;
+    text-align:center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:800px){
+    .info{
+        flex-direction: column;
+        font-size: 0.7em;
+        text-align: center;
+    }
+    .myname{
+        width: 100vw;
+        height: 10vw;
+        margin-top: 0;
+    }
+    .mypic{
+        height: 30vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about{
+        flex-direction: column;
+        font-size: 0.7em;
+        justify-content: center;
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+        font-size: 0.7em;
+        position: relative;
+    }
+    .intro{
+        justify-content: center;
+        width: 100%;
+        font-size: 0.5em;
+    }
+}
+@media screen and (max-width:650px){
+    .info{
+        font-size: 0.5em;
+    }
+    h1{
+        width: 100vw;
+        text-align: center;
+        font-size: 0.7em;
+    }
+    .myname{
+        width: 100%;
+    }
+    .mypic{
+        height: 100%;
+    }
+    .about{
+        flex-direction: column;
+        font-size: 0.5em;
+    }
+    .intro{
+        justify-content: center;
+        font-size: 0.5em;
+    }
 }
