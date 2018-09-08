@@ -4,7 +4,6 @@ body{
     color: aliceblue;
     text-align: center;
     display: flex;
-    justify-content: center;
     flex-direction: column;
 }
 .info{
@@ -13,7 +12,6 @@ body{
     font-family: 'Concert One', cursive;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .mypic{
     width:30vw;
@@ -21,7 +19,6 @@ body{
     border: 5px black;
     border-radius: 10vw;
     box-shadow: 5px -5px 5px gray;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -70,8 +67,6 @@ h1{
     }
     .myname{
         width: 100vw;
-        margin-top: auto;
-        margin-bottom: auto;
     }
     .mypic{
         height: 30vw;
