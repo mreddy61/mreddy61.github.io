@@ -59,6 +59,63 @@ h1{
     flex-wrap: wrap;
 }
 
+.technologies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 0.7em;
+    justify-content: center;
+    text-align: center;
+}
+.item{
+    width: 30%;
+    height: 40%;
+    border:1px solid white; 
+}
+.item img{
+    width: 80%;
+    height: 80%;
+}
+.techname{
+    color:white;
+    height: 20%;
+}
+/*#javascript{
+    background-image: url("./images/JavaScript-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+#python{
+    background-image: url("./images/python-logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+#java{
+    background-image: url("./images/java-logo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+#mongo{
+    background-image: url("./images/MongoDB-logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+#angular{
+    background-image: url("./images/angular-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+#node{
+    background-image: url("./images/nodejs-logo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}*/
 @media screen and (max-width:800px){
     .info{
         flex-direction: column;
@@ -90,6 +147,9 @@ h1{
         width: 90vw;
         font-size: 0.5em;
     }
+    .technologies{
+        font-size:0.6em;
+    }
 }
 @media screen and (max-width:650px){
     .info{
@@ -113,5 +173,8 @@ h1{
     .intro{
         justify-content: center;
         font-size: 0.5em;
+    }
+    .technologies{
+        font-size:0.5em;
     }
 }
