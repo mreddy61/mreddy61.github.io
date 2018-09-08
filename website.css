@@ -16,13 +16,15 @@ body{
 .mypic{
     width:30vw;
     height: 30vw;
-    border: 5px black;
+    border: 2px groove lightseagreen;
     border-radius: 10vw;
     margin-left: auto;
     margin-right: auto;
 }
 .myname{
     text-align:center;
+    font-family: 'Faster One', cursive;
+    color: lightseagreen;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 60vw;
