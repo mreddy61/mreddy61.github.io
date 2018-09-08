@@ -3,7 +3,6 @@ body{
     background-color:black;
     color: aliceblue;
     text-align: center;
-    text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -31,7 +30,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     width: 60vw;
-    margin-top: 10vw;
+    margin-top: auto;
     margin-bottom: auto; 
 }
 .about{
@@ -52,7 +51,7 @@ h1{
     line-height: 5vw;
     justify-content: center;
     width: 80vw;
-    font-size: 0.5em;
+    font-size: 0.7em;
     color: whitesmoke;
     padding:2.5vw;
     border: 1px solid gray;
