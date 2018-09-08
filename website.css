@@ -11,7 +11,6 @@ body{
 .info{
     color:whitesmoke;
     font-size: 1em;
-    width: 100%;
     font-family: 'Concert One', cursive;
     display: flex;
     justify-content: center;
@@ -21,16 +20,17 @@ body{
     width:30vw;
     height: 30vw;
     border: 5px black;
-    border-radius: 10%;
-    box-shadow: 5px -5px 5px gray; 
-    /*margin-left: auto;
-    margin-right: auto; */
+    border-radius: 10vw;
+    box-shadow: 5px -5px 5px gray;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .myname{
     text-align:center;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 60%;
+    width: 60vw;
     margin-top: 10vw;
     margin-bottom: auto; 
 }
@@ -43,22 +43,21 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 h1{
     font-size: 0.7em;
-    width: 100vw;
     text-align: center;
 }
 .intro{
     line-height: 5vw;
     justify-content: center;
+    width: 80vw;
     font-size: 0.5em;
     color: whitesmoke;
-    /*padding:2.5%;
+    padding:2.5vw;
     border: 1px solid gray;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px lightseagreen;*/
+    box-shadow: 2px 2px 2px 2px lightseagreen;
     font-family: 'Abel', sans-serif;
     text-align:center;
     flex-wrap: wrap;
@@ -72,7 +71,6 @@ h1{
     }
     .myname{
         width: 100vw;
-        height: 10vw;
         margin-top: 0;
     }
     .mypic{
