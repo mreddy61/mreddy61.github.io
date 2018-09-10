@@ -88,7 +88,7 @@ h1{
 .experience{
     font-size: 0.6em;
     font-family: 'Abel', sans-serif;
-    width:80%;
+    width:90%;
 }
 .section{
     border: 1px solid white;
@@ -110,7 +110,8 @@ ul{
     font-weight: bold;
     font-size: 1.2em;
     color: black;
-    text-align:initial;
+    text-align: initial;
+    padding-left:3%; 
 }
 
 
@@ -122,7 +123,7 @@ ul{
         text-align: center;
     }
     .myname{
-        width: 100vw;
+        width: 100%;
         margin-bottom: 3%;
     }
     .mypic{
@@ -136,7 +137,7 @@ ul{
         justify-content: center;
     }
     h1{
-        width: 100vw;
+        width: 100%;
         text-align: center;
         font-size: 0.7em;
         position: relative;
@@ -158,12 +159,8 @@ ul{
         font-size: 0.5em;
     }
     h1{
-        width: 100vw;
         text-align: center;
         font-size: 0.7em;
-    }
-    .myname{
-        width: 100%;
     }
     .mypic{
         height: 30vw;
