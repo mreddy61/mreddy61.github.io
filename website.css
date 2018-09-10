@@ -44,6 +44,10 @@ h1{
     font-size: 0.7em;
     text-align: center;
     color: lightseagreen;
+    border: 1px groove white;
+    padding: 1%;
+    width: 90%;
+    box-shadow: 1px 1px 2px 2px white;
 }
 .intro{
     line-height: 5vw;
@@ -113,8 +117,18 @@ ul{
     text-align: initial;
     padding-left:3%; 
 }
-
-
+.works{
+    font-size: 0.7em;
+    height: 30vw;
+    width: 30vw;
+    font-family: 'Abel', sans-serif;
+    border: 1px solid white;
+    background-image: url(./images/background.jpg);
+}
+.works a{
+    text-decoration: none;
+    color: white;
+}
 /*media Queries*/
 @media screen and (max-width:800px){
     .info{
