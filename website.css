@@ -125,6 +125,8 @@ ul{
     border: 1px solid white;
     line-height: 15vw;
     background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .works a{
     text-decoration: none;
