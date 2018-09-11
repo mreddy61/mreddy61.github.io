@@ -121,8 +121,9 @@ ul{
     font-size: 0.7em;
     height: 30vw;
     width: 30vw;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Concert One', cursive;
     border: 1px solid white;
+    line-height: 15vw;
     background-image: url(./images/background.jpg);
 }
 .works a{
